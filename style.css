@@ -143,18 +143,21 @@ button:active {
   .footer {
     position: relative;
     text-align: center;
+    bottom: -10rem;
     margin-top: 50px;
     background: transparent;
     padding: 20px 0;
     overflow: hidden;
+
    
   }
   
   .animated-text {
     animation: fadeIn 1.5s ease-in-out;
-    font-family: "Arial", sans-serif;
+    font-family: monospace;
     font-size: 18px;
-    color: #ffffff;
+    font-weight: bold;
+    color: #000a65;
     padding: 5px 10px;
     border-radius: 5px;
     display: inline-block;
